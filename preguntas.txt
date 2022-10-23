@@ -1,0 +1,23 @@
+Los objetos se crean a partir de una plantilla llamada clase. Cada objeto es una instancia de su clase.
+Los objetos tienen datos que son los atributos y funcionalidades que son los métodos.
+
+La clase es una plantilla. lleva un nombre que empieza con mayuscula y en singular. dentro de la clase van a estar las variables internas y las funcuines.
+
+el contructor de una clase es una función que sirve para crear un objeto a partir de los parámetros que se le pasen.
+
+los modificadores de acceso son:
+    GETTER: se usa para acceder a una variable internas.
+    SETTER: se usa para modificar las variables internas.
+
+Con el private las variables solo se pueden acceder de forma interna, solamente dento de la clase. Por lo tanto, un usuario no puede modificar, ni acceder a esas variables.
+El protected usa para acceder/ modificar una variable interna de la superclase.
+las variables siguen siendo privadas para el exterior, pero pueden ser accedidas desde una subclase.(Herencia)
+
+El super se utiliza cuando  al hecer herencia invocamos al construtor de la clase padre.
+
+La palabra THIS se usa:
+    +hace referencia a una variable interna de la clase.
+    +es la forma para acceder al código de la instancia que está denntro de la clase.
+    +tambien sirve para llamar metodos de la clase.
+
+La clase hija es la que hereda todos los atributos y metodos de la clase padre.
